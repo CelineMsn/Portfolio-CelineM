@@ -393,13 +393,18 @@ a .hyperlink:hover {
   h1 {
     font-size: 55px;
   }
-
+}
 @media (max-width: 800px) {
   h1 {  
     font-size: 50px;
   }
    h2 {
     padding: 10px 5px;
+  }
+   .hero-photo {
+    padding: 0;
+    text-align: center;
+  }
   }
 @media (max-width: 576px) {
   h1 {
@@ -439,8 +444,12 @@ a .hyperlink:hover {
   .card-left {
     margin-top: 10px;
   }
+  .course-title{
+    text-align: start;
+  }
   .hero-photo {
     padding: 0;
+    text-align: center;
   }
   .top-margin {
     display: none;
@@ -456,7 +465,9 @@ a .hyperlink:hover {
     padding-bottom: 0px;
     margin-top: 10px;
   }
- 
+  .tools-icons{
+   padding: 0;
+  }
   .footer-icon {
     text-align: center;
   }
