@@ -388,18 +388,37 @@ a .hyperlink:hover {
   display: flex;
   justify-content: space-evenly;
 }
+
+@media (max-width: 1150px) {
+  h1 {
+    font-size: 55px;
+  }
+
+@media (max-width: 800px) {
+  h1 {  
+    font-size: 50px;
+  }
+   h2 {
+    padding: 10px 5px;
+  }
 @media (max-width: 576px) {
   h1 {
     text-align: center;
-    font-size: 55px;
+    font-size: 45px;
   }
   h2 {
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 20;
+  }
+  h4{
     text-align: center;
     padding: 10px 5px;
   }
   img {
     padding: 0;
     margin: 0;
+    text-align: center;
     max-width: fit-content;
   }
   .contact-card h6,
@@ -431,6 +450,7 @@ a .hyperlink:hover {
   }
   .content-container {
     padding: 0;
+    text-align: center;
   }
   .bottom-margin {
     padding-bottom: 0px;
