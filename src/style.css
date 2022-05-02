@@ -389,15 +389,35 @@ a .hyperlink:hover {
   justify-content: space-evenly;
 }
 
+.project-description-r{
+  text-align: start;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+.project-description-l{
+  text-align: end;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+
 @media (max-width: 1150px) {
   h1 {
     font-size: 55px;
   }
 }
 @media (max-width:990px){
-  .project-no-photo{
+  .project-description-r{
     text-align: center;
-    padding-top: ;
+    margin-top: 0;
+    padding: 0;
+  }
+  
+  .project-description-l{
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
   }
 }
 
