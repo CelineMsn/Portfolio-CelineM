@@ -394,6 +394,13 @@ a .hyperlink:hover {
     font-size: 55px;
   }
 }
+@media (max-width:990px){
+  .project-no-photo{
+    text-align: center;
+    padding-top: ;
+  }
+}
+
 @media (max-width: 800px) {
   h1 {  
     font-size: 50px;
