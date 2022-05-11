@@ -348,6 +348,23 @@ a .hyperlink:hover {
   padding: 60px 10px 200px;
   margin: 0 50px -200px;
 }
+
+.year-company{
+text: center;
+}
+.job-title{
+text:center
+
+}
+.job-descr {
+margin-top:0px;
+padding-top:0px;
+padding-left: 10px;
+padding-right:10px;
+padding-bottom: 0px;
+vertical-align: middle;
+}
+
 .white {
   background: white;
 }
@@ -358,6 +375,7 @@ a .hyperlink:hover {
 .top-margin {
   margin-top: 150px;
 }
+
 .icon:hover,
 .fa-envelope:hover,
 .email-link:hover {
