@@ -47,17 +47,17 @@ h7 {
   font-size: 18px;
   font-weight: 200;
 }
-h9{
+h9 {
   color: white;
   font-size: 15px;
   font-weight: 200;
 }
-h10{
+h10 {
   color: white;
   padding: 0px 0;
   font-size: 40px;
 }
-span{
+span {
   color: var(--modern-pink);
 }
 hr:not([size]) {
@@ -349,20 +349,19 @@ a .hyperlink:hover {
   margin: 0 50px -200px;
 }
 
-.year-company{
-text: center;
+.year-company {
+  text: center;
 }
-.job-title{
-text:center
-
+.job-title {
+  text: center;
 }
 .job-descr {
-margin-top:0px;
-padding-top:0px;
-padding-left: 10px;
-padding-right:10px;
-padding-bottom: 0px;
-vertical-align: middle;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  vertical-align: middle;
 }
 
 .white {
@@ -407,13 +406,13 @@ vertical-align: middle;
   justify-content: space-evenly;
 }
 
-.project-description-r{
+.project-description-r {
   text-align: start;
   margin-left: 5px;
   margin-right: 5px;
   padding: 0;
 }
-.project-description-l{
+.project-description-l {
   text-align: end;
   margin-left: 5px;
   margin-right: 5px;
@@ -425,14 +424,14 @@ vertical-align: middle;
     font-size: 55px;
   }
 }
-@media (max-width:990px){
-  .project-description-r{
+@media (max-width: 990px) {
+  .project-description-r {
     text-align: center;
     margin-top: 0;
     padding: 0;
   }
-  
-  .project-description-l{
+
+  .project-description-l {
     text-align: center;
     margin-top: 0;
     padding: 0;
@@ -440,17 +439,17 @@ vertical-align: middle;
 }
 
 @media (max-width: 800px) {
-  h1 {  
+  h1 {
     font-size: 50px;
   }
-   h2 {
+  h2 {
     padding: 10px 5px;
   }
-   .hero-photo {
+  .hero-photo {
     padding: 0;
     text-align: center;
   }
-  }
+}
 @media (max-width: 576px) {
   h1 {
     text-align: center;
@@ -461,7 +460,7 @@ vertical-align: middle;
     padding: 10px 5px;
     font-size: 20;
   }
-  h4{
+  h4 {
     text-align: center;
     padding: 10px 5px;
   }
@@ -489,7 +488,7 @@ vertical-align: middle;
   .card-left {
     margin-top: 10px;
   }
-  .course-title{
+  .course-title {
     text-align: start;
   }
   .hero-photo {
@@ -510,8 +509,8 @@ vertical-align: middle;
     padding-bottom: 0px;
     margin-top: 10px;
   }
-  .tools-icons{
-   padding: 0;
+  .tools-icons {
+    padding: 0;
   }
   .footer-icon {
     text-align: center;
