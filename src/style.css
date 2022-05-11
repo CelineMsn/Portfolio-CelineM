@@ -31,7 +31,7 @@ h3 {
 h4 {
   color: white;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 35px;
 }
 h5 {
   font-weight: 600;
@@ -458,11 +458,12 @@ a .hyperlink:hover {
   h2 {
     text-align: center;
     padding: 10px 5px;
-    font-size: 20;
+    font-size: 20px;
   }
   h4 {
     text-align: center;
-    padding: 10px 5px;
+    font-size: 24px;
+    padding: 10px px;
   }
   img {
     padding: 0;
@@ -508,9 +509,6 @@ a .hyperlink:hover {
   .bottom-margin {
     padding-bottom: 0px;
     margin-top: 10px;
-  }
-  .tools-icons {
-    padding: 0;
   }
   .footer-icon {
     text-align: center;
