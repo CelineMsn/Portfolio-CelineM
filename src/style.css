@@ -9,6 +9,11 @@
     var(--modern-pink),
     var(--modern-purple)
   );
+   --gradient2: linear-gradient(
+    68.6deg,
+    var(--modern-purple),
+    var(--modern-pink)
+  );
   --shadow: 5px 5px 8px rgba(109, 109, 109, 0.247);
   --shadow-2: 2px 2px 8px rgba(25, 25, 25, 0.295);
 }
@@ -135,28 +140,56 @@ a:hover {
 .content-container {
   background: var(--secondary-colour);
   padding: 40px 0 0;
+  z-index:50;
 }
+
 .content-container h4 {
   padding: 60px 0;
   font-size: 30px;
+  
 }
 .about-container {
   margin-top: 20px;
   background: white;
   transition: all 150ms ease-in-out;
+
 }
 .about-container .content-container {
   margin-top: 160px;
   transition: ease-in-out all 150ms;
   box-shadow: var(--shadow);
   border-radius: 4px;
+  
 }
+.values-container {
+  margin-top: 20px;
+  background: white;
+  transition: all 150ms ease-in-out;
+ 
+}
+.content-values-container {
+  background: var(--secondary-colour);
+  padding: 40px 0 0;
+ 
+}
+.values-container .content-container {
+  transition: ease-in-out all 150ms;
+  box-shadow: var(--shadow);
+  border-radius: 4px;
+  margin-top: -25px;
+}
+
 .title {
   color: var(--modern-pink);
 }
 .about-container .content-container:hover {
   color: white;
-  background: var(--gradient);
+  background: var(--gradient2);
+}
+
+.values-container .content-container:hover{
+  color: white;
+  background: var(--gradient);-
 }
 
 .tile {
