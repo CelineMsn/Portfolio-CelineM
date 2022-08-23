@@ -194,6 +194,31 @@ font-family: IBM Plex Mono, monospace;
     text-transform: uppercase;
    
 }
+
+.typewriter-home h1 {
+  font-family: IBM Plex Mono, monospace;
+  font-weight: normal;
+  padding: 0 0 0 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: typing 4s steps(14) infinite;
+  text-transform: uppercase;
+   
+}
+
+.typewriter-home h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #dadada;
+    right: 0;
+    bottom: 0;
+    animation: cursor 1s infinite;
+}
+
 .typewriter p::after {
     content: "";
     position: absolute;
@@ -627,9 +652,10 @@ a .hyperlink:hover {
     overflow: hidden;
     position: relative;
     animation: typing 4s steps(26) infinite;
-    text-transform: uppercase;
-   
+    text-transform: uppercase;  
 }
+.typewriter-home h1 {
+    font-size: 40px;
 
   .contact-card h6,
   .contact-card a {

@@ -17,3 +17,4 @@ document.querySelector("#send-mail").addEventListener("submit", alertMessage);
 function sendMail(event) {
   mailTo;
 }
+
