@@ -175,7 +175,6 @@ a:hover {
   background: black;
   padding: 0;
 }
-
 .logo-z-losange{
   display: block;
   text-align: center;
@@ -687,9 +686,18 @@ a .hyperlink:hover {
     .typewriter-home h1 {
     font-size: 40px;
 }
+
+.typewriter-container-home {
+    justify-content:center;
+}
 .logo-z-losange img{
   max-width: 100%;
 }
+.about-icons img{
+   max-width: 100%;
+   padding: 0;
+}
+
 .contact-card h6,
 .contact-card a {
     display: block;
