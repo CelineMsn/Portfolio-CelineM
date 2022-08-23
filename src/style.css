@@ -175,6 +175,9 @@ a:hover {
   background: black;
   padding: 0;
 }
+
+
+
 .typewriter-body  p {
 color: #fff;
 font-family: IBM Plex Mono, monospace;
@@ -182,8 +185,9 @@ font-family: IBM Plex Mono, monospace;
 .typewriter-container {
     display: flex;
     justify-content: center;
-    padding-bottom: -20px;
+    padding: 0;
 }
+
 .typewriter p {
     font-size: 45px;
     font-weight: lighter;
@@ -192,22 +196,8 @@ font-family: IBM Plex Mono, monospace;
     position: relative;
     animation: typing 4s steps(26) infinite;
     text-transform: uppercase;
-   
 }
-
-.typewriter-home h1 {
-  font-family: IBM Plex Mono, monospace;
-  font-weight: normal;
-  padding: 0 0 0 20px;
-  overflow: hidden;
-  white-space: nowrap;
-  position: relative;
-  animation: typing 4s steps(14) infinite;
-  text-transform: uppercase;
-   
-}
-
-.typewriter-home h1::after {
+.typewriter p::after {
     content: "";
     position: absolute;
     display: block;
@@ -219,7 +209,44 @@ font-family: IBM Plex Mono, monospace;
     animation: cursor 1s infinite;
 }
 
-.typewriter p::after {
+.typewriter-portfolio p {
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    animation: typing 4s steps(10) infinite;
+    text-transform: uppercase;
+}
+.typewriter-portfolio p::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #dadada;
+    right: 0;
+    bottom: 0;
+    animation: cursor 0.5s infinite;
+}
+
+.typewriter-container-home {
+    display: flex;
+    justify-content:left;
+    padding-bottom: -20px;
+}
+.typewriter-home h1 {
+  font-family: IBM Plex Mono, monospace;
+  font-weight: normal;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: typing 3s steps(14) infinite;
+  text-transform: uppercase;
+}
+.typewriter-home h1::after {
     content: "";
     position: absolute;
     display: block;
