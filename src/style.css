@@ -32,7 +32,14 @@ h1 span {
 
 h1 span:nth-child(3){
   color:#fff;
-  animation: animate 3s alternate infinite;
+  animation: animate 2.5s alternate infinite;
+}
+
+
+h1 span:nth-child(5){
+  color:#fff;
+  animation: animate 3.5s alternate infinite;
+  animation-delay: 0.7s ;
 }
 
 @keyframes animate
@@ -44,7 +51,7 @@ h1 span:nth-child(3){
     transform: translateY(0px) rotate(90deg);
   } 
   50%{
-    transform: translateY(-60px) rotate(180deg);
+    transform: translateY(-35px) rotate(180deg);
   } 
   75%{
     transform: translateY(0px) ;
@@ -84,7 +91,7 @@ h3 {
   color: black;
 }
 h4 {
-  color: rgb(144, 143, 143);
+  color: white;
   font-weight: 400;
   font-size: 35px;
 }
@@ -550,6 +557,7 @@ a .hyperlink:hover {
   padding: 0;
 }
 
+
 @media (max-width: 1150px) {
   h1 {
     font-size: 55px;
@@ -666,3 +674,5 @@ a .hyperlink:hover {
     text-align: center;
   }
 }
+
+
