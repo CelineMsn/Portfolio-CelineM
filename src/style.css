@@ -176,7 +176,11 @@ a:hover {
   padding: 0;
 }
 
-
+.logo-z-losange{
+  display: block;
+  text-align: center;
+  background-color: #F8F8F8 ;
+}
 
 .typewriter-body  p {
 color: #fff;
@@ -649,7 +653,6 @@ a .hyperlink:hover {
     text-transform: uppercase;
    
 }
-
 }
 
 @media (max-width: 576px) {
@@ -681,11 +684,14 @@ a .hyperlink:hover {
     animation: typing 4s steps(26) infinite;
     text-transform: uppercase;  
 }
-.typewriter-home h1 {
+    .typewriter-home h1 {
     font-size: 40px;
-
-  .contact-card h6,
-  .contact-card a {
+}
+.logo-z-losange img{
+  max-width: 100%;
+}
+.contact-card h6,
+.contact-card a {
     display: block;
     text-align: center;
   }
